@@ -66,4 +66,26 @@ align-items: center;
 
 }
 
+@media (max-width: 768px) {
+
+  .container{
+    flex-direction: column;
+  }
+
+  .left,
+  .right{
+    width: 100%;
+    border-right: none;
+  }
+
+  .left{
+    padding: 20px;
+  }
+
+  .left img{
+    width: 80%;
+  }
+
+}
+
 
